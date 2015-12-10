@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="AccountManager" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;CMake Files\test\tests\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="F:/Developer/CodeKata/AccountManager/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AccountManager">
+         <Option output="F:/Developer/CodeKata/AccountManager/build/AccountManager.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/build" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/src" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include-fixed" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/backward" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 AccountManager" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="AccountManager/fast">
+         <Option output="F:/Developer/CodeKata/AccountManager/build/AccountManager.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/build" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/src" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include-fixed" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/backward" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 AccountManager/fast" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="F:/Developer/CodeKata/AccountManager/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="F:/Developer/CodeKata/AccountManager/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="src">
+         <Option output="F:/Developer/CodeKata/AccountManager/build/src/libsrc.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="F:/Developer/CodeKata/AccountManager/build/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/build" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/src" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include-fixed" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/backward" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/src/Makefile&quot;  VERBOSE=1 src" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="src/fast">
+         <Option output="F:/Developer/CodeKata/AccountManager/build/src/libsrc.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="F:/Developer/CodeKata/AccountManager/build/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/build" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/src" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include-fixed" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/backward" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/src/Makefile&quot;  VERBOSE=1 src/fast" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="accountUt">
+         <Option output="F:/Developer/CodeKata/AccountManager/build/test/accountUt.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/build" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/src" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../src" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include-fixed" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/backward" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/Makefile&quot;  VERBOSE=1 accountUt" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="accountUt/fast">
+         <Option output="F:/Developer/CodeKata/AccountManager/build/test/accountUt.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/build" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/src" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../src" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include-fixed" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/backward" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/Makefile&quot;  VERBOSE=1 accountUt/fast" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tests">
+         <Option output="F:/Developer/CodeKata/AccountManager/build/test/tests/libtests.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="F:/Developer/CodeKata/AccountManager/build/test/tests" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/build" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/src" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../src" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include-fixed" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/backward" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/tests/Makefile&quot;  VERBOSE=1 tests" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tests/fast">
+         <Option output="F:/Developer/CodeKata/AccountManager/build/test/tests/libtests.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="F:/Developer/CodeKata/AccountManager/build/test/tests" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/build" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/src" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../../GMock/gtest/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../../GMock/include" />
+            <Add directory="F:/Developer/CodeKata/AccountManager/test/../src" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/../../../../i686-w64-mingw32/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include-fixed" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/backward" />
+            <Add directory="c:\apps\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.0/include/c++/i686-w64-mingw32" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/tests/Makefile&quot;  VERBOSE=1 tests/fast" />
+            <CompileFile command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/apps/minGW/bin/mingw32-make.exe -f &quot;F:/Developer/CodeKata/AccountManager/build/test/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/main.cpp">
+      </Unit>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/src/Account.cpp">
+      </Unit>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/test/main.cpp">
+      </Unit>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/test/tests/test.cpp">
+      </Unit>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/src/Account.hpp">
+      </Unit>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\" />
+      </Unit>
+      <Unit filename="F:/Developer/CodeKata/AccountManager/test/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\tests\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

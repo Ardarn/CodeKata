@@ -1,0 +1,4 @@
+F:/Developer/CodeKata/AccountManager/build/CMakeFiles/AccountManager.dir
+F:/Developer/CodeKata/AccountManager/build/test/CMakeFiles/accountUt.dir
+F:/Developer/CodeKata/AccountManager/build/src/CMakeFiles/src.dir
+F:/Developer/CodeKata/AccountManager/build/test/tests/CMakeFiles/tests.dir

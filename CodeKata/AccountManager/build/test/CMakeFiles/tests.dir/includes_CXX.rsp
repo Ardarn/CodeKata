@@ -1,0 +1,1 @@
+-IF:/Developer/CodeKata/AccountManager/src -IF:/Developer/CodeKata/AccountManager/test -isystem F:/Developer/CodeKata/AccountManager/test/../../GMock/include -isystem F:/Developer/CodeKata/AccountManager/test/../../GMock/gtest/include 

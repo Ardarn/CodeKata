@@ -1,0 +1,1 @@
+-IF:/Developer/CodeKata/AccountManager/../GMock/include -IF:/Developer/CodeKata/AccountManager/../GMock/gtest/include -IF:/Developer/CodeKata/AccountManager/../GMock/gtest/build -IF:/Developer/CodeKata/AccountManager/src -IF:/Developer/CodeKata/AccountManager/test 

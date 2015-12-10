@@ -1,0 +1,2 @@
+C:\apps\minGW\bin\ar.exe cr libsrc.a  CMakeFiles/src.dir/Account.cpp.obj
+C:\apps\minGW\bin\ranlib.exe libsrc.a

@@ -1,0 +1,2 @@
+C:\apps\minGW\bin\ar.exe cr libtests.a  CMakeFiles/tests.dir/test.cpp.obj
+C:\apps\minGW\bin\ranlib.exe libtests.a
